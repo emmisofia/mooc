@@ -7,16 +7,18 @@ public class UseammanLuvunSumma {
         Scanner lukija = new Scanner(System.in);
         int summa = 0;
 
-        System.out.print("Anna lukuja, nolla lopettaa: ");
         while (true) {
+            System.out.print("Anna lukuja, nolla lopettaa: ");
             int luettu = Integer.parseInt(lukija.nextLine());
             if (luettu == 0) {
                 break;
-            }
+            } else {
+                summa = summa + luettu;
+               
 
             // TEE JOTAIN TÄÄLLÄ
+            } 
         }
-
         System.out.println("Summa lopussa: " + summa);
     }
 }

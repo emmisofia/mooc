@@ -9,6 +9,12 @@ public class KolmenLuvunSumma {
 
         // KIRJOITA OHJELMA TÄHÄN
         // ÄLÄ KÄYTÄ MUITA MUUTTUJIA KUIN lukija ja summa !
+        System.out.println("Anna ensimmäinen luku");
+        summa = Integer.parseInt(lukija.nextLine());
+        System.out.println("Anna toinen luku");
+        summa = summa + Integer.parseInt(lukija.nextLine());
+        System.out.println("Anna kolmas luku");
+        summa = summa + Integer.parseInt(lukija.nextLine());
         System.out.println("Summa: " + summa);
     }
 }
